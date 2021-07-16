@@ -14,7 +14,7 @@ const HeroCarousal = () => {
      slidesToShow: 1,
      infinite: true,
      slidesToScroll: 1,
-     nextArrow: <NextArrow className="rounded-full"/>,
+     nextArrow: <NextArrow />,
      prevArrow: <PrevArrow />,
    };
 
