@@ -22,7 +22,6 @@ const HeroCarousal = () => {
     arrows: true,
     centerMode: true,
     centerPadding: "200px",
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
