@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { MovieContext } from "../../context/movie.context";
 
-//context
+// context
 import MovieInfo from "./MovieInfo.component";
 
 const MovieHero = () => {
@@ -35,7 +35,7 @@ const MovieHero = () => {
             <MovieInfo />
           </div>
           <img
-            src="https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/zack-snyder-s-justice-league-et00047164-10-04-2021-03-22-49.jpg"
+            src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
             alt="poster"
             className="w-full h-full"
           />
